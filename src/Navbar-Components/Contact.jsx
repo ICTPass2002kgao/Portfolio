@@ -98,7 +98,7 @@ const Contact = () => {
               onChange={handleChange}
               required
             ></textarea>
-          </div>
+          </div><br />
           <button type="submit" className="btn btn-primary">
             Send Message
           </button>
