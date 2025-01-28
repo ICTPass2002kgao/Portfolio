@@ -31,7 +31,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault(); 
-    const response = await fetch("https://formsubmit.co/kgaogelojoseph33@gmail.com", {
+    const response = await fetch("https://formsubmit.co/9974b3e3c9b94efea1a2ae817e896401", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
