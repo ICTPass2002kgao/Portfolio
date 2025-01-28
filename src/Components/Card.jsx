@@ -1,10 +1,27 @@
 import webAppIcon from '../assets/web-app.png';
 import mobileAppIcon from '../assets/smartphone.png';
+import { useEffect } from "react";
+import ScrollReveal from 'scrollreveal';
+
 const Card = (props) => {
   const projectIcon =
     props.projectType.toLowerCase().includes("mobile")
       ? mobileAppIcon
       : webAppIcon;
+      
+   useEffect(() => { 
+    const sr = ScrollReveal({
+      origin: "bottom",  
+      distance: "50px",  
+      duration: 2000, 
+      delay: 200, 
+      reset: false,  
+      
+    });
+ 
+    sr.reveal(".card", { interval: 200 }); 
+    sr.reveal(".card",{origin : 'right'})
+  }, []);
     return (
       <div className="card"> 
         <img src={projectIcon} alt="Project Thumbnail" /> 

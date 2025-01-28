@@ -92,12 +92,11 @@ const Services = () => {
     const sr = ScrollReveal({
       origin: "bottom",  
       distance: "50px",  
-      duration: 1000, 
+      duration: 2000, 
       delay: 200, 
       reset: false,  
     });
- 
-    sr.reveal(".service-section", { interval: 200 }); 
+  
     sr.reveal(".header-title",{origin : 'left'})
   }, []);
   return (

@@ -3,6 +3,7 @@ body {
   background-color: #050a30; 
   color: hsla(0, 0%, 90%, 0.8);
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 h1,
 h2,
@@ -51,6 +52,7 @@ nav {
     right: 0px;
     top: 1px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     gap: 10px;
@@ -149,42 +151,36 @@ nav ul li a:hover {
   100% {
     transform: translateY(0%);
   }
-}
-.about-us-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-  padding: 20px;
-}
-.about-main-content {
-  padding-top: 30px;
-  display: flex;
-  flex-direction: row; 
-  gap: 5%;
-}
-.about-content p {
-  display:flex;
-  font-size: 20px;
-  align-self: center;
-  justify-self: center;
-}
-.about-content { 
-  width: -1px;
-  align-items: end;
-  width: 507px;
-}
-@media (max-width: 700px) {
+} 
+  .about-main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding:7%; 
+  }
+  .about-us-header { 
+    text-align: center;
+    
+  }
+  .about-content {
+    padding:5%; 
+  } 
+@media (max-width: 768px) {
   .about-main-content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     align-content: center;
   }
+  .about-us-header { 
+    text-align: center;
+    
+  }
   .about-content {
-    margin:0px;
-    align-items: end;
-    padding: 20px; 
+    padding:10%; 
   }
   .contact-container {
     max-width: 100%;
@@ -214,7 +210,6 @@ nav ul li a:hover {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
@@ -271,7 +266,7 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 .card-url-icon {
-  top: 10px;
+  bottom: 10px;
   right: 10px;
   opacity: 0;
   visibility: hidden;

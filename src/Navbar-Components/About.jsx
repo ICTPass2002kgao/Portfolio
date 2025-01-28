@@ -24,7 +24,7 @@ sr.reveal(".profile-image",{origin : 'right'});
   })
     return ( 
       <div  id="about-us" className='about-us-section'>
-        <header> <h1>About me</h1></header>
+        <header> <h1 className="about-us-header">About me</h1></header>
         <div className="about-main-content">
             <div className="image-container">
         <img className="profile-image" src={profile} alt="Profile" />
