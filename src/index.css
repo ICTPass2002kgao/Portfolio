@@ -268,8 +268,7 @@ nav ul li a:hover {
 .card-url-icon {
   bottom: 10px;
   right: 10px;
-  opacity: 0;
-  visibility: hidden;
+  opacity: 0; 
   transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 .card:hover .card-url-icon {
