@@ -82,10 +82,10 @@ const Services = () => {
       title: "Cyborg Certifier",
       description: `An online system for South African citizens to certify
                         documents by uploading and verifying identity.`,
-      techStack: `HTML, Bootstrap, Python (Django),Dart`,
+      techStack: `HTML, CSS, Reactjs , Bootstrap, Python (Django,AI),Dart,`,
       projectType: "Web App and Mobile App",
       sourceCodes: "https://github.com/Robotic-hub/Robotic-hub.git",
-      Url: "https://cyborgcertifier-production.up.railway.app/",
+      Url: "https://cyborg-certify.netlify.app/",
     },
   ];
    useEffect(() => { 
@@ -119,6 +119,6 @@ const Services = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Services;

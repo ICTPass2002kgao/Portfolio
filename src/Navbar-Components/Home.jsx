@@ -8,6 +8,7 @@ import About from "./About";
 import Services from "./Services";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import resume from "../assets/Mthimkhulu Kgaogelo resume.pdf"
 
 const Home = () => {
   const el = React.useRef(null);
@@ -53,6 +54,7 @@ const sr = ScrollReveal({
           With a knack for problem-solving and a love for clean code, I create 
           software solutions that make an impact.
         </p>
+       
    
         <div className="social-icons">
           <a
@@ -70,7 +72,7 @@ const sr = ScrollReveal({
             <i className="bi bi-linkedin"></i>
           </a>
           <a
-            href="https://facebook.com/kgaogelo-mthimkhulu"
+            href="https://www.facebook.com/profile.php?id=100073118885417"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -91,6 +93,15 @@ const sr = ScrollReveal({
             <i className="bi bi-telephone"></i>
           </a>
         </div>
+        <br />
+        <a
+            href={resume}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-outline-light btn-sm card-url-icon"
+          >
+            <i className="bi bi-download"> Download CV</i>
+          </a>
       </div>
    
       <div className="image-container">

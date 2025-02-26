@@ -34,24 +34,27 @@ const Card = (props) => {
           <p className="card-projectType">
             <strong>Project Type:</strong> {props.projectType}
           </p>
+          <div className="link_buttons">
+          
+          {props.Url && (<a
+            href={props.Url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card-link"
+          > 
+           <i className="bi bi-box-arrow-in-up-right"> Visit site</i>
+          </a>
+)}
           <a
             href={props.sourceCodes}
             target="_blank"
             rel="noopener noreferrer"
-            className="card-link"
-          >
-            View Source Code
-          </a>
-          {props.Url && (
-          <a
-            href={props.Url}
-            target="_blank"
-            rel="noopener noreferrer"
             className="btn btn-outline-secondary btn-sm card-url-icon position-absolute"
           >
-            <i className="bi bi-box-arrow-up-right"> visit</i>
+            <i className="bi bi-github"> Visit Source codes</i>
           </a>
-        )}
+        
+          </div>
         </div>
       </div>
     );

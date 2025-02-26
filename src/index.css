@@ -265,10 +265,14 @@ nav ul li a:hover {
 .card-link:hover {
   text-decoration: underline;
 }
+.link_buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .card-url-icon {
   bottom: 10px;
-  right: 10px;
-  opacity: 0; 
+  right: 10px; 
   transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 .card:hover .card-url-icon {
