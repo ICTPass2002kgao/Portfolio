@@ -45,14 +45,21 @@ const Card = (props) => {
            <i className="bi bi-box-arrow-in-up-right"> Visit site</i>
           </a>
 )}
-          <a
+        {props.Url === "" ?  <a
+            href={props.sourceCodes}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-outline-secondary btn-sm card-url-icon "
+          >
+            <i className="bi bi-github"> Visit Source codes</i>
+          </a>:  <a
             href={props.sourceCodes}
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-outline-secondary btn-sm card-url-icon position-absolute"
           >
             <i className="bi bi-github"> Visit Source codes</i>
-          </a>
+          </a>}
         
           </div>
         </div>
