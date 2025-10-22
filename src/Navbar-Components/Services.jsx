@@ -7,6 +7,16 @@ const Services = () => {
   const projects = [
     {
       id: "1",
+      title: "Dankie Mobile App",
+      description: `A mobile application that allows all the TACT church members to
+                        connect and sell/buy products and listen to church music and assist matric students with applications to the university`,
+      techStack: `Dart(Flutter) & Firebase & django`,
+      projectType: "Website and Mobile App",
+      sourceCodes: "https://github.com/ICTPass2002kgao/The-Tact-App.git",
+      Url: "https://tact-3c612.web.app/",
+    },
+    {
+      id: "2",
       title: "Student living",
       description: `Developed students accommodation web application for 
                         one landlord where students can apply and landlord can review Applications and
@@ -19,7 +29,7 @@ const Services = () => {
       Url: "http://13.60.173.161:8000/",
     },
     {
-      id: "2",
+      id: "3",
       title: "Accomate",
       description: `This is a mobile application
                             allowing Landlords to uploads
@@ -35,7 +45,7 @@ const Services = () => {
       Url: "",
     },
     {
-      id: "3",
+      id: "4",
       title: "Furnishop",
       description: `This is an e-commerce website for
                             users to buy furnitures like
@@ -49,7 +59,7 @@ const Services = () => {
       Url: "",
     },
     {
-      id: "4",
+      id: "5",
       title: "Image2Pdf",
       description: `This is a mobile application for
                           both android and IOS user to
@@ -60,7 +70,7 @@ const Services = () => {
       Url: "",
     },
     {
-      id: "5",
+      id: "6",
       title: "Recruitment System",
       description: `This is a recruitment system
                         programmed for MICTSETA
@@ -78,7 +88,7 @@ const Services = () => {
       Url: "",
     },
     {
-      id: "6",
+      id: "7",
       title: "Cyborg Certifier",
       description: `An online system for South African citizens to certify
                         documents by uploading and verifying identity.`,
