@@ -383,3 +383,54 @@ textarea {
     margin: 0 auto;
   }
 }
+
+.store-badges {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.store-icon {
+  font-size: 1.8rem;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.store-icon:hover {
+  color: #007bff;
+}
+
+.huawei-badge {
+  display: inline-block;
+  background: #c00;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  line-height: 1.4;
+}
+/* Demo Credentials Badge */
+.demo-credentials {
+  margin: 10px 0;
+  padding: 6px 12px;
+  background-color: #f8f9fa;
+  border-left: 4px solid #ffc107; /* Yellow warning color */
+  border-radius: 4px;
+  font-size: 0.85rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.credential {
+  background: #ffffff;
+  padding: 2px 8px;
+  border: 1px solid #dee2e6;
+  border-radius: 3px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: #212529;
+}

@@ -21,10 +21,10 @@ const Footer = () => {
             <a href="#"><div className="bottom-footer-icon" ><i className="bi bi-arrow-up"></i></div></a>
         <div className="footer-container mx-auto text-center">
           <p className="text-sm">
-            &copy; 2025 Joseph Mthimkhulu. All rights reserved.
+            &copy; 2026 Joseph Mthimkhulu. All rights reserved.
           </p>
           <p className="text-sm">
-            Developed with ❤️ by Joseph Mthimkhulu.
+            Developed with by Joseph Kgaogelo Mthimkhulu.
           </p>
         </div>
       </footer>

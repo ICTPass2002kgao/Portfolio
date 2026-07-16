@@ -1,14 +1,14 @@
 import React from "react";
 import Typed from "typed.js";
 import Navbar from "../Components/Navbar";
-import profile from "../assets/PortFolie.jpg"; 
+import profile from "../assets/profile.PNG"; 
 import { useEffect } from "react";
 import ScrollReveal from 'scrollreveal'; 
 import About from "./About";
 import Services from "./Services";
 import Contact from "./Contact";
 import Footer from "./Footer";
-import resume from "../assets/Mthimkhulu Kgaogelo resume.pdf"
+import resume from "../assets/Kgaogelo Mthimkhulu's cv.pdf?url"
 
 const Home = () => {
   const el = React.useRef(null);
